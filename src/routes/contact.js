@@ -14,7 +14,7 @@ const contact = () => {
           id="formsubmit"
           action="personal.html"
           method="get"
-          onsubmit="return ValidationEvent()"
+          onsubmit="return ValidationEvent() "
         >
           <div>Fullname</div>
           <div>
@@ -23,6 +23,7 @@ const contact = () => {
               className="fullname"
               name="fullname"
               placeholder="fullname"
+              required
             />
           </div>
           <div class="divcolor" id="fullnamediv"></div>
@@ -34,6 +35,7 @@ const contact = () => {
               className="email"
               name="email"
               placeholder="email"
+              required
             />
           </div>
           <div class="divcolor" id="emaildiv"></div>
@@ -44,11 +46,12 @@ const contact = () => {
               className="phoneno"
               name="phoneno"
               placeholder="phone no"
+              required
             />
           </div>
           <div class="divcolor" id="phonenodiv"></div>
           <input
-            class="sub"
+            className="sub"
             type="submit"
             value="submit"
             onclick="return validate()"

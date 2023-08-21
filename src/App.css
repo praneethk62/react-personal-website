@@ -70,6 +70,8 @@ color: blue;
 {
   width: 70px;
         height: 40px;
+        background: yellow;
+        
 }
 .fullname
 {
@@ -86,4 +88,14 @@ color: blue;
   width: 200px;
   height: 40px;
 
+}
+ul{
+ list-style-type:disc;
+}
+.skill{
+   margin-left: 60px;
+  padding: 100px;
+   background-color: black;
+  color: white;
+  font-size: 30px;
 }

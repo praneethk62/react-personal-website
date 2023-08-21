@@ -22,21 +22,8 @@ const home = () => {
         <br />
       </div>
       
-      <div class="education">
-        <h2>
-          <u> Educational Qualification</u>
-        </h2>
-        <ul type="circle">
-          <li>
-            {" "}
-            Diploma in Electronics Engineering at Government Polytechnic College
-            Kannur{" "}
-          </li>
-
-          <li> Higher Secondary at Mambaram Higher Secondary School</li>
-          <li> SSLC at Kadachira High School </li>
-        </ul>
-      </div>
+     
+     
       
     </>
   );
